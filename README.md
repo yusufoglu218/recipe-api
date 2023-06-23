@@ -1,6 +1,7 @@
 # Recipe Rest Api
 
 Recipe rest api that includes CRUD (**C**reate, **R**ead, **U**pdate, **D**elete) and getBySearchCriteria operations using spring boot and h2 database.
+When application started the scripts in the resources/data.sql is run automatically, and it saves initial data to the h2 database.
 
 
 ## Prerequisites
@@ -53,6 +54,9 @@ Below are the model classes which we will store in H2 and perform database opera
 |`GET`|http://localhost:8080/ | Root page |
 |`GET`|http://localhost:8080/swagger-ui/index.html | Swagger UI page |
 |`GET`|http://localhost:8080/actuator | Actuator page |
+
+#### H2 Database Console Endpoint
+|`GET`|http://localhost:8080/h2-console| H2 database console page |
 
 #### Recipe Endpoints
 
