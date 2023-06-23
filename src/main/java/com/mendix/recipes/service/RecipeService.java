@@ -1,11 +1,7 @@
 package com.mendix.recipes.service;
 
-
-import com.mendix.recipes.model.Category;
 import com.mendix.recipes.model.Recipe;
 import org.springframework.data.domain.Page;
-
-import java.util.List;
 
 /**
  * Interface for recipe services.
